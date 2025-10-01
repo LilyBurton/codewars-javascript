@@ -1,4 +1,4 @@
-const uniqueInOrder = require('./uniqueInOrder');
+const uniqueInOrder = require('../modules/uniqueInOrder');
 
 test('Returns a sequence into a list of items without any elements with the same value', () => {
   expect(uniqueInOrder('AAAABBBCCDAABBB')).toStrictEqual(['A', 'B', 'C', 'D', 'A', 'B']);
